@@ -26,12 +26,14 @@ button[data-stop] {
   height: 50px;
   width: 100px;
 }
+
 .timer {
   display: flex;
   gap: 20px;
   justify-content: center;
   font-size: 30px;
 }
+
 .field {
   display: flex;
   gap: 10px;
@@ -39,12 +41,15 @@ button[data-stop] {
   flex-direction: column;
   align-items: center;
 }
+
 .value {
   font-size: 50px;
 }
+
 .menu {
   list-style: none;
 }
+
 .menu a,
 p > a {
   display: inline-block;
@@ -55,6 +60,7 @@ p > a {
   padding: 10px;
   margin-bottom: 10px;
 }
+
 .menu a:hover,
 p > a:hover {
   color: white;
